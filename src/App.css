@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.keyboard {
+    margin-top: 50px;
+}
+
+.keyboard button {
+    margin: 5px 2px;
+    padding: 16px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board-row {
+    display: flex;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    background-color: lightsteelblue;
+    color: #242424;
+    font-size: 42px;
+    line-height: 42px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+/* For both button and field cell */
+.semi-correct {
+    background-color: lightgoldenrodyellow;
+}
+.correct {
+    background-color: darkseagreen;
+}
+.incorrect {
+    background-color: gray;
+}
